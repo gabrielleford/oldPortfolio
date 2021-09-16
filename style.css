@@ -18,20 +18,28 @@
 @font-face {
     font-family: 'Lexend Deca';
     src: url(./assets/LexendDecaVariableFontwght.ttf) format("truetype");
+    font-weight: 1 999;
 }
 
 @font-face {
     font-family: 'Raleway';
     src: url(./assets/RalewayVariableFontwght.ttf) format("truetype");
+    font-weight: 1 999;
 }
 
 @font-face {
     font-family: 'Urbanist';
     src: url(./assets/UrbanistVariableFontwght.ttf) format("truetype");
+    font-weight: 1 999;
 }
 
 body {
     background-color: #fae1dd;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+}
+
+.navbar {
+    letter-spacing: 1px;
 }
 
