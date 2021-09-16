@@ -15,6 +15,13 @@
     - Will be announced once everyone has completed Gold
 */
 
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url(./assets/LexendDecaVariableFontwght.ttf) format("truetype");
+}
+
 body {
     background-color: #fae1dd;
+    font-family: 'Lexend Deca', sans-serif;
 }
+
