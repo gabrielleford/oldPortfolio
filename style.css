@@ -20,8 +20,18 @@
     src: url(./assets/LexendDecaVariableFontwght.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: 'Raleway';
+    src: url(./assets/RalewayVariableFontwght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url(./assets/UrbanistVariableFontwght.ttf) format("truetype");
+}
+
 body {
     background-color: #fae1dd;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Urbanist', sans-serif;
 }
 
