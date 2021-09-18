@@ -34,7 +34,7 @@
 }
 
 body {
-    background-color: #fae1dd;
+    background-color: #f8eeec;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 300;
 }
@@ -57,12 +57,12 @@ h2 {
 }
 
 #about {
-    background-color: #fec5bb;
+    background-color: #fcd5ce;
 }
 
 #headshot {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     background-color: white;
     border-radius: 50%;
 }
