@@ -1,20 +1,3 @@
-/* *** Portfolio Set Up Challenge *** */
-/*
-**** Bronze:
-    - Create a folder called myPortfolio in our myProjects folder 
-    - Create an index.html file in myPortfolio folder
-    - Create a style.css file in myPortfolio folder
-**** Silver:
-    - Add our start boilerplate to our index.html file
-    - Add a background color property to your style.css
-    - Connect your style.css to your index.html, use your open with live server to check both files are connected
-**** Gold:
-    - Create a GitHub repository called/titled "Portfolio"
-    - Connect your myPortfolio folder to your GH repo Portfolio
-**** Platinum: 
-    - Will be announced once everyone has completed Gold
-*/
-
 @font-face {
     font-family: 'Lexend Deca';
     src: url(./assets/LexendDecaVariableFontwght.ttf) format("truetype");
@@ -68,4 +51,9 @@ h2 {
 
 #aboutText {
     max-width: 700px;
+    font-size: 1.13rem;
+}
+
+#projects {
+    background-color: white;
 }
