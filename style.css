@@ -44,7 +44,7 @@ body {
 }
 
 h1 {
-    font-size: 96px;
+    font-size: 6rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
 }
@@ -53,7 +53,7 @@ h2 {
     font-family: 'Urbanist', sans-serif;
     font-weight: 400;
     letter-spacing: 2.5px;
-    font-size: 50px;
+    font-size: 3.2rem;
 }
 
 #about {
