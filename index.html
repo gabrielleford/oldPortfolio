@@ -28,11 +28,13 @@
     </head>
 
     <body style="height: 2000px;">
+        <!-- * NAV BAR & HAMBURGER ICON * -->
         <nav class="navbar fixed-top navbar-expand-xxl navbar-light">
             <div class="container-fluid ms-auto me-0">
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!-- * NAV LINKS * -->
                 <div class="collapse navbar-collapse" id="navbarToggler">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item ms-auto">
@@ -55,6 +57,7 @@
             </div>
         </nav>
 
+        <!-- * HEADER * -->
         <div class="container-fluid">
             <div class="row mb-5" id="headerRow">
                 <div class="col mt-3 mb-5">
@@ -62,14 +65,19 @@
                 </div>
             </div>
 
+            <!-- * ABOUT SECTION * -->
             <div class="row pb-4" id="about">
-                <div class="col-2"></div>
+                <div class="col-2"></div> <!-- Adding this to line elements up within each section -->
+
                 <div class="col mt-4">
                     <h2 id="aboutHeader">Get to Know Me</h2>
-                    <div class="row mt-4">
+                    <!--  * Headshot/Picture * -->
+                    <div class="row mt-4"> <!-- Created a row within the header div to make positioning elements easier -->
                         <div class="col-4 mt-4">
                             <img class="img-fluid ms-5 me-5" src="./assets/placeholder-image.png" alt="Headshot" id="headshot">
                         </div>
+
+                        <!-- * About Text * -->
                         <div class="col pt-4 pe-5 me-5 ms-4" id="aboutText">
                             <p class="text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dignissimos accusantium debitis amet voluptatem tempora ea pariatur ipsum vero nulla facilis hic inventore quas quis architecto reprehenderit, mollitia, at in? Natus, quo sequi laborum optio velit repellat suscipit eius error voluptas ratione, quos eaque, debitis sint qui eveniet numquam dignissimos tempora nemo nesciunt quod rerum. Quibusdam suscipit voluptas at ullam reiciendis recusandae nisi ex consequuntur, repudiandae autem atque dolor quis blanditiis sequi reprehenderit commodi? Dicta eum quis odio tempore. Perspiciatis modi deleniti minus itaque aliquid labore alias sed officiis ad, est praesentium magni molestiae facere omnis quo consequatur iure debitis!</p>
                         </div>
@@ -78,17 +86,36 @@
             </div>
         </div>
 
+        <!-- * PROJECTS SECTION * -->
         <div class="row pb-4" id="projects">
             <div class="col-2"></div>
+
             <div class="col mt-4">
                 <h2>Projects</h2>
-                <div class="row mt-4">
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <img src="" alt="">
-                    <img src="" alt="">
+                <div class="row mt-4"> <!-- Creating two rows within projects div in order to line them up - 3 on top row & 3 on bottom row -->
+                    <div class="col">
+                        <a href=""><img class="img-fluid projectImg" src="./assets/cssCreature.png" alt="CSS Creature Project - Finn the Human from Adventure Time"></a>
+                    </div>
+
+                    <div class="col">
+                        <a href=""><img class="img-fluid projectImg" src="./assets/staticLayout.png" alt="Static Layout Project - Kast website"></a>
+                    </div>
+
+                    <div class="col">
+                        <a href=""><img class="img-fluid projectImg" src="./assets/apiChallengeOne.png" alt="API Challenge One"></a>
+                    </div>
+                </div>
+
+                <div class="row"> <!-- Second row of projects -->
+                    <div class="col">
+                        <a href=""><img class="img-fluid projectImg" src="./assets/placeholder-image.png" alt=""></a>
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid projectImg" src="" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid projectImg" src="" alt="">
+                    </div> 
                 </div>
             </div>
         </div>
