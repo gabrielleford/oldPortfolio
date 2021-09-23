@@ -1,18 +1,11 @@
 let navLinks = document.querySelectorAll('.nav-link');
-console.log(navLinks);
+let topLink = navLinks[0];
+let topChildLink = topLink.classList;
+console.log(topChildLink);
+console.log(topLink);
 
-console.log(navLinks[0].classList);
-
-navLinks.forEach(link => {
-    if (link.classList.contains('active')) {
-        console.log('Active');
-    } else {
-        console.log('Not active');
-    }
-})
-
-navLinks.forEach(link => {
-    link.addEventListener('click', function() {
+for (i = 1; i < navLinks.length; i++) {
+    navLinks[i].addEventListener('click', function() {
         this.classList.add('active');
         navLinks.forEach(activeLink => {
             if (activeLink !== this) {
@@ -20,4 +13,4 @@ navLinks.forEach(link => {
             }
         })
     })
-})
+}

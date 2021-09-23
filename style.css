@@ -26,8 +26,8 @@ body {
     letter-spacing: 1px;
 }
 
-.active {
-    display: none;
+.hideTop {
+    visibility: hidden;
 }
 
 h1 {
