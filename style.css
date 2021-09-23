@@ -26,6 +26,10 @@ body {
     letter-spacing: 1px;
 }
 
+.active {
+    display: none;
+}
+
 h1 {
     font-size: 6rem;
     font-family: 'Raleway', sans-serif;
