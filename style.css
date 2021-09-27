@@ -17,7 +17,7 @@
 }
 
 body {
-    background-color: #f8eeec;
+    background-color: white;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 300;
     position: relative;
@@ -50,7 +50,7 @@ h2 {
 
 #headshot {
     width: 250px;
-    background-color: white;
+    background-color: white ;
     border-radius: 50%;
 }
 
@@ -60,10 +60,20 @@ h2 {
 }
 
 #projects {
-    background-color: white;
+    background-color: #fec5bb;
 }
 
 .projectImg {
     width: 210px;
     border-radius: 50%;
 }
+
+#devTools {
+    background-color: #fcd5ce;
+}
+
+#contact {
+    background-color: white;
+}
+
+/* #f8e6e3 */
