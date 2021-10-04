@@ -24,10 +24,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gabrielle Ford's Portfolio</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
         <link rel="stylesheet" href="./style.css">
     </head>
 
-    <body data-bs-spy="scroll" data-bs-target="#navbarToggler">
+    <body data-bs-spy="scroll" data-bs-target="#navbarToggler" data-bs-offset="100">
         <!-- * NAV BAR & HAMBURGER ICON * -->
         <nav class="navbar fixed-top navbar-expand-xxl navbar-light">
             <div class="container-fluid ms-auto me-0">
@@ -66,10 +67,10 @@
             </div>
 
             <!-- * ABOUT SECTION * -->
-            <div class="row pb-4" id="about">
+            <div class="row pt-3 pb-5" id="about">
                 <div class="col-2"></div> <!-- Adding this to line elements up within each section -->
 
-                <div class="col mt-4">
+                <div class="col mt-5">
                     <h2 id="aboutHeader">Get to Know Me</h2>
                     <!--  * Headshot/Picture * -->
                     <div class="row mt-4"> <!-- Created a row within the header div to make positioning elements easier -->
@@ -87,10 +88,10 @@
         </div>
 
         <!-- * PROJECTS SECTION * -->
-        <div class="row pb-4" id="projects">
+        <div class="row pt-3 pb-5" id="projects">
             <div class="col-2"></div>
 
-            <div class="col mt-4">
+            <div class="col mt-5">
                 <h2>Projects</h2>
                 <div class="row mt-5 ms-5 ps-5"> <!-- Creating two rows within projects div in order to line them up - 3 on top row & 3 on bottom row -->
                     <div class="col-lg-3 col-sm-12 mt-3">
@@ -127,7 +128,7 @@
                     </div>
                 </div>
 
-                <div class="row mt-4 ms-5 ps-5"> <!-- Second row of projects -->
+                <div class="row mt-4 ms-5 ps-5 pb-3"> <!-- Second row of projects -->
                     <div class="col-lg-3 col-sm-12 mt-3">
                         <div class="hoverFx">
                             <a href="https://apichallenge2-c9315.web.app/" target="blank"><img class="img-fluid projectImg nasaImg" src="./assets/nasaApi.png" alt="API Challenge Two">
@@ -159,24 +160,54 @@
         </div>
 
         <!-- * DEV TOOLS * -->
-        <div class="row pb-4" id="devTools" style="height: 200px;">
+        <div class="row pt-3 pb-5" id="devTools">
             <div class="col-2"></div>
-            <div class="col mt-4">
+            <div class="col mt-5">
                 <h2>Tools</h2>
-                <div class="row mt-4">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                <div class="row mt-4  me-5 pe-5">
+                    <div class="col-lg-3 col-md-6 col-sm-12 devIconDiv">
+                        <i class="devicon-html5-plain devIcon"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 devIconDiv">
+                        <i class="devicon-css3-plain devIcon"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 devIconDiv">
+                        <i class="devicon-javascript-plain devIcon"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 devIconDiv">
+                        <i class="devicon-python-plain devIcon"></i>
+                        <p>Python</p>
+                    </div>
+                </div>
+
+                <div class="row mt-5 me-5 pe-5 pb-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12 devIconDiv">
+                        <i class="devicon-bootstrap-plain devIcon"></i>
+                        <p>Bootstrap 5</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 devIconDiv">
+                        <i class="devicon-github-original devIcon"></i>
+                        <p>GitHub</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 devIconDiv">
+                        <i class="devicon-firebase-plain devIcon"></i>
+                        <p>Firebase</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 devIconDiv">
+                        <img src="./assets/wireframe.png" alt="" class="devIconImg">
+                        <p>Wireframing</p>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- * CONTACT * -->
-        <div class="row pb-4" id="contact" style="height: 500px;">
+        <div class="row pt-3 pb-5" id="contact" style="height: 500px;">
             <div class="col-2"></div>
-            <div class="col mt-4">
+            <div class="col mt-5">
                 <h2>Contact</h2>
                 <div class="row mt-4">
 
