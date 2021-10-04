@@ -25,7 +25,7 @@ body {
 
 .navbar {
     letter-spacing: 1px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .hideTop {
@@ -154,7 +154,20 @@ h2 {
 }
 
 form {
-    width: 900px;
+    max-width: 900px;
+    border: solid 5px #fcd5ce;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #fcd5ce;
+    border: none;
+    color: black;
+}
+
+.btn:hover {
+    background-color: #fae1dd;
+    color: rgb(80, 80, 80);
 }
 
 /* #f8e6e3 */

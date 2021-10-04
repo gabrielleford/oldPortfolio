@@ -209,21 +209,21 @@
             <div class="col-2"></div>
             <div class="col mt-5">
                 <h2>Contact</h2>
-                <form class="row mt-4 ms-5 me-3">
+                <form class="row mt-4 ms-5 me-3 p-5" action="https://formspree.io/f/myylvdwp" method="POST">
                     <div class="form-floating mb-3">
-                        <input type="name" class="form-control" id="floatingName" placeholder="First Last" required>
+                        <input type="name" class="form-control" id="floatingName" placeholder="First Last" name="name" required>
                         <label for="floatingName">Name</label>
                       </div>
                       <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" required>
+                        <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" name="_replyto" required>
                         <label for="floatingEmail">Email Address</label>
                       </div>
                       <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingText" placeholder="Your message here" required>
-                        <label for="floatingText">Your message</label>
+                        <textarea type="text" class="form-control" id="floatingText" placeholder="Your message here" name="message" required></textarea>
+                        <label for="floatingText">Message</label>
                       </div>
                       <div class="">
-                        <button class="btn btn-primary" type="submit">Submit form</button>
+                        <button class="btn btn-primary" type="submit">Submit</button>
                       </div>
                 </form>
                 <div class="row">
