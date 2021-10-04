@@ -163,11 +163,10 @@ form {
     background-color: #fcd5ce;
     border: none;
     color: black;
+    transition: all .3s ease-in-out;
 }
 
 .btn:hover {
-    background-color: #fae1dd;
-    color: rgb(80, 80, 80);
+    background-color: rgb(252, 213, 206, 0.6);
+    color: rgba(0, 0, 0, 0.8);
 }
-
-/* #f8e6e3 */
