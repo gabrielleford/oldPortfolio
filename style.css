@@ -59,6 +59,10 @@ h2 {
     font-size: 1.13rem;
 }
 
+#aboutPara {
+    text-indent: 5%;
+}
+
 .projectImg {
     width: 210px;
     border-radius: 50%;
