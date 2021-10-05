@@ -37,6 +37,10 @@ h1 {
     font-weight: 300;
 }
 
+#quotesCarousel {
+    width: 820px;
+}
+
 h2 {
     font-family: 'Urbanist', sans-serif;
     font-weight: 400;
@@ -56,10 +60,7 @@ h2 {
 
 #aboutText {
     max-width: 700px;
-    font-size: 1.13rem;
-}
-
-#aboutPara {
+    font-size: 1.05rem;
     text-indent: 5%;
 }
 
