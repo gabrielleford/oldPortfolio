@@ -198,3 +198,12 @@ form {
     background-color: rgb(252, 213, 206, 0.6);
     color: rgba(0, 0, 0, 0.8);
 }
+
+#socialMedia a {
+    text-decoration: none;
+}
+
+.smIcon {
+    font-size: 75px;
+    color: #fec5bb;
+}
