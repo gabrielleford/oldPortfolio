@@ -70,8 +70,8 @@ h2 {
     position: relative;
 }
 
-.nasaImg {
-    transition: all .4s ease-in-out;
+.projectTitle {
+    font-weight: 300;
 }
 
 .hoverFx {
