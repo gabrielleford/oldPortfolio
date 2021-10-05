@@ -135,6 +135,7 @@ h2 {
 
 .devIconDiv {
     text-align: center;
+    margin-left: 2vw;
 }
 
 .devIcon {
@@ -147,6 +148,33 @@ h2 {
 
 .devText {
     margin-left: 4%;
+}
+
+#resumeRow {
+    margin-top: -5vh;
+    text-align: center;
+    background-color: #fcd5ce;
+    border-top: solid 1px white;
+}
+
+#resumeRow p {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+}
+
+#resume img{
+    height: 20px;
+}
+
+#resume {
+    color: black;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+#resume:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 #contact {
