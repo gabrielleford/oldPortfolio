@@ -203,6 +203,18 @@ form {
     text-decoration: none;
 }
 
+.smDiv {
+    margin-left: 26vw;
+}
+
+#github {
+    margin-right: 2vw;
+}
+
+#linkedin {
+    margin-left: 2vw;
+}
+
 .smIcon {
     font-size: 75px;
     color: #fec5bb;
