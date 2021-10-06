@@ -170,19 +170,46 @@ h2 {
     font-weight: 400;
 }
 
+#btnFx {
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+}
+
+#resumeBtn {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: outset 1px darkgray;
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+}
+
+#btnFx:hover #resumeBtn {
+    transform: scale(1.02, 1.06);
+}
+
 #resume img{
     height: 20px;
 }
 
 #resume {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 7px;
     color: black;
     text-decoration: none;
-    transition: all .3s ease-in-out;
-}
-
-#resume:hover {
-    text-decoration: underline;
-    color: rgba(0, 0, 0, 0.6);
 }
 
 #contact {
@@ -197,13 +224,13 @@ form {
 
 .btn {
     background-color: #fcd5ce;
-    border: none;
+    border: outset 1px rgba(0, 0, 0, 0.4);
     color: black;
     transition: all .3s ease-in-out;
 }
 
 .btn:hover {
-    background-color: rgb(252, 213, 206, 0.6);
+    background-color: rgb(252, 213, 206, 0.85);
     color: rgba(0, 0, 0, 0.8);
 }
 
