@@ -68,6 +68,11 @@ h2 {
     text-indent: 5%;
 }
 
+#projectDiv {
+    max-width: 1300px;
+    margin-left: 13%;
+}
+
 .projectImg {
     width: 210px;
     border-radius: 50%;
@@ -143,7 +148,7 @@ h2 {
 
 .devIconDiv {
     text-align: center;
-    margin-left: 2vw;
+    margin-left: 2%;
 }
 
 .devIcon {
@@ -238,12 +243,8 @@ form {
     text-decoration: none;
 }
 
-#github {
-    margin-right: 2vw;
-}
-
-#linkedin {
-    margin-left: 2vw;
+.smDiv {
+    text-align: center;
 }
 
 .smIcon {

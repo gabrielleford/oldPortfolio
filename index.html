@@ -110,8 +110,8 @@
 
                 <div class="col mt-5">
                     <h2>Projects</h2>
-                    <div class="row mt-5 ms-5 ps-5"> <!-- Creating two rows within projects div in order to line them up - 3 on top row & 3 on bottom row -->
-                        <div class="col-lg-3 col-sm-12 mt-3">
+                    <div class="row mt-5" id="projectDiv">
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-3">
                             <div class="hoverFx">
                                 <a href="https://codepen.io/gabrielleford/full/MWmNodP" target="_blank"><img class="img-fluid projectImg" src="./assets/cssCreature.png" alt="CSS Creature Project - Finn the Human from Adventure Time">
                                     <div class="titleDescript">
@@ -121,8 +121,8 @@
                                 </a>
                             </div>
                         </div>
-
-                        <div class="col-lg-3 col-sm-12 mt-3">
+        
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-3">
                             <div class="hoverFx">
                                 <a href="https://gabrielleford.github.io/staticLayout/" target="_blank"><img class="img-fluid projectImg" src="./assets/staticLayout.png" alt="Static Layout Project - Kast website">
                                     <div class="titleDescript">
@@ -132,8 +132,8 @@
                                 </a>
                             </div>
                         </div>
-
-                        <div class="col-lg-3 col-sm-12 mt-3">
+        
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-3">
                             <div class="hoverFx">
                                 <a href="https://gabrielleford.github.io/apiChallenge/" target="_blank"><img class="img-fluid projectImg" src="./assets/apiChallengeOne.png" alt="API Challenge One">
                                     <div class="titleDescript">
@@ -143,10 +143,8 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="row mt-4 ms-5 ps-5 pb-3"> <!-- Second row of projects -->
-                        <div class="col-lg-3 col-sm-12 mt-3">
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-3">
                             <div class="hoverFx">
                                 <a href="https://apichallenge2-c9315.web.app/" target="_blank"><img class="img-fluid projectImg" src="./assets/nasaApi.png" alt="API Challenge Two">
                                     <div class="titleDescript">
@@ -156,7 +154,8 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-sm-12 mt-3">
+
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-3">
                             <div class="hoverFx">
                                 <img class="img-fluid projectImg" src="./assets/badgeswebdevblue.png" alt="TBA Blue Badge Project">
                                 <div class="titleDescript">
@@ -164,7 +163,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-sm-12 mt-3">
+
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-3">
                             <div class="hoverFx">
                                 <img class="img-fluid projectImg" src="./assets/badgeswebdevred.png" alt="TBA Red Badge Project">
                                 <div class="titleDescript">
@@ -266,19 +266,20 @@
             </div>
             
             <!-- * Social Media Links * -->
-            <div class="row mt-3 pb-5" id="socialMedia">
-                <div class="col-2 ms-auto me-auto">
+            <div class="row justify-content-center mt-3 pb-5" id="socialMedia">
+                <div class="col-2 smDiv">
                     <a href="https://github.com/gabrielleford" class="mt-2" id="github"><i class="devicon-github-original smIcon"></i></a>
+                </div>
+                <div class="col-2 smDiv">
                     <a href="https://www.linkedin.com/in/gabrielle-f-293251221/" class="mt-2" id="linkedin"><i class="devicon-linkedin-plain smIcon"></i></a>
                 </div>
             </div>
-
             <!-- * FOOTER * -->
             <div class="row mt-3 pt-3 pb-3">
                 <p class="text-center"><small>&copy; Gabrielle Ford 2021</small></p>
             </div>
+        
         </div>
-
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
         <script src="./script.js"></script>
     </body>
